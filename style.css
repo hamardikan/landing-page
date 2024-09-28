@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar part */
+
+.navbar {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px 20px 50px;
+}
+
+.navbarLogo {
+    width: 84px;
+    height: 84px;
+}
+
+.navbarLinks {
+    display: flex;
+}
