@@ -25,6 +25,27 @@ body {
     height: 84px;
 }
 
-.navbarLinks {
+.navbarLink {
     display: flex;
+}
+
+.navbarLink a {
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Hero Part */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px;
+}
+
+.heroCta {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
