@@ -14,14 +14,15 @@ body {
 /* Navbar part */
 
 .navbar {
+    color: white;
+    background-color: gray;
     display:flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px 0px 20px 50px;
 }
 
-.navbarLogo {
-    width: 84px;
+.navbarLogo img {
     height: 84px;
 }
 
@@ -33,6 +34,7 @@ body {
     padding: 10px;
     font-size: 18px;
     text-decoration: none;
+    color: white;
 }
 
 /* Hero Part */
@@ -41,6 +43,8 @@ body {
     justify-content: center;
     align-items: center;
     padding: 72px;
+    background-color: gray;
+    color: white;
 }
 
 .heroCta {
@@ -48,4 +52,79 @@ body {
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-right: 25px;
+}
+
+.hero Button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.heroImage img{
+    height: 300px;
+}
+
+/* content part */
+.content {
+    align-items: center;
+}
+
+.contentInfo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contentInfo img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+/* Quote Part */
+.quote {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.quote p {
+
+}
+
+.quote b {
+
+}
+
+/* SignUp Part */
+
+.signUp {
+
+}
+
+.signUpText {
+
+}
+
+.signUpButton {
+
+}
+
+/* footer part */
+
+.footer{
+
 }
